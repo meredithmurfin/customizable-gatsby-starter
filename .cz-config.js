@@ -197,6 +197,10 @@ module.exports = {
                 name: 'config: 🛠️ Adds or updates configuration files',
             },
             {
+                value: 'docs',
+                name: 'docs:   📚 Documentation updates',
+            },
+            {
                 value: 'init',
                 name: 'init:   💃 Initial commit',
             },

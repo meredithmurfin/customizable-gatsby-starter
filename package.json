@@ -1,4 +1,22 @@
 {
+    "name": "ultimate-gatsby-starter",
+    "version": "1.0.0",
+    "private": true,
+    "description": "The ultimate starter template for a Gatsby project with TypeScript",
+    "keywords": [
+        "gatsby",
+        "starter",
+        "typescript",
+        "react",
+        "yarn"
+    ],
+    "license": "MIT",
+    "repository": "https://github.com/meredithmurfin/ultimate-gatsby-starter.git",
+    "author": {
+        "name": "Meredith Murfin",
+        "email": "meredithmurfin@gmail.com",
+        "url": "http://meremurf.dev"
+    },
     "scripts": {
         "cm": "cz"
     },
