@@ -1,1 +1,2 @@
-export { HomeContent } from './HomePageContent/HomePageContent';
+export { HomePageContent } from './HomePageContent/HomePageContent';
+export { ErrorPageContent } from './ErrorPageContent/ErrorPageContent';

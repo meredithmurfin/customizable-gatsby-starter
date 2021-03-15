@@ -1,7 +1,6 @@
 import React from 'react';
 import './HomePageContent.scss';
-
-export function HomeContent(): JSX.Element {
+function HomePageContent(): JSX.Element {
     return (
         <>
             <main>
@@ -12,3 +11,5 @@ export function HomeContent(): JSX.Element {
         </>
     );
 }
+
+export default HomePageContent;
