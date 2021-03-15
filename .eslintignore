@@ -1,0 +1,6 @@
+gatsby-config.js
+node_modules
+.cache
+public
+src/images
+.github
