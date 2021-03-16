@@ -16,24 +16,27 @@
 
 ## Types of changes
 
--   [ ] Bug fix 🐞
--   [ ] Chore ⚙️ (build process or supporting tool changes)
--   [ ] CI 🚀
--   [ ] Documentation 📚
--   [ ] Feature ⭐ (adds functionality)
--   [ ] Optimize ⚡️ (improves performance)
--   [ ] Refactor ♻️ (neither fixes a bug nor adds functionality)
--   [ ] Release 🔖 (releases a new version)
--   [ ] Initial setup 🎉
--   [ ] Style change 🎨
--   [ ] Testing 🧪
--   [ ] User Experience 🚸
+-   [ ] 🐞 Bug fix
+-   [ ] ⚙️ Chore (build process or supporting tool changes)
+-   [ ] 🚀 CI
+-   [ ] 📚 Documentation
+-   [ ] ⭐ Feature (adds functionality)
+-   [ ] ⚡️ Optimize (improves performance)
+-   [ ] ♻️ Refactor (neither fixes a bug nor adds functionality)
+-   [ ] 🔖 Release (releases a new version)
+-   [ ] 🎉 Initial setup
+-   [ ] 🎨 Style change
+-   [ ] 🧪 Testing
+-   [ ] 🚸 User Experience
 
 ## Checklist:
 
--   [ ] My code follows the code style of this project.
--   [ ] My change requires a documentation update.
--   [ ] I have updated the documentation accordingly.
--   [ ] My changes require tests to be written.
--   [ ] I have added tests to cover my changes.
--   [ ] All new and existing tests passed.
+-   [ ] My code follows the style guidelines of this project
+-   [ ] I have performed a self-review of my own code
+-   [ ] I have commented my code, particularly in hard-to-understand areas
+-   [ ] My changes generate no new warnings
+-   [ ] My changes require a documentation update
+-   [ ] I have made necessary updates to the documentation
+-   [ ] My changes require tests to be written that prove my fix is effective or that my feature works
+-   [ ] All new and existing unit tests pass locally with my changes
+-   [ ] Any dependent changes have been merged and published in downstream modules
