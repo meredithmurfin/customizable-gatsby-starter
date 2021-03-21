@@ -25,8 +25,4 @@ Run the following command to start the interactive setup tool:
 yarn setup
 ```
 
-The interactive CLI will ask you a series of questions regarding your project preferences related to linting, committing, and other general configurations. After setup is complete, you can:
-- Remove the setup script from your `package.json`
-- Remove the setup folder located in `src/setup`
-
-Happy coding!
+The interactive CLI will ask you a series of questions regarding your project preferences related to linting, committing, and other general configurations. After setup is complete, the files and dependencies related to this setup process will be removed from your project.

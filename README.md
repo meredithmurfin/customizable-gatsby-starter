@@ -14,3 +14,8 @@ This project is set up with the necessary installations and configurations for:
 -   [Commitlint](https://commitlint.js.org/#/)
 -   [Husky](https://typicode.github.io/husky/#/)
 -   [VS Code workspace settings](https://code.visualstudio.com/) (optional)
+
+### Notes to Edit
+```
+brew install jq
+```
