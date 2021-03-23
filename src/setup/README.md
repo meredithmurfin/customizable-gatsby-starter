@@ -15,12 +15,13 @@ This project is already set up and ready to use with my favorite specifications.
 ## How to use
 
 After creating your own project from your terminal using the Gatsby CLI:
-```
-gatsby new your-project-name https://github.com/meredithmurfin/ultimate-gatsby-starter.git
-```
 
+```
+gatsby new your-project-name https://github.com/meredithmurfin/customizable-gatsby-starter.git
+```
 
 Run the following command to start the interactive setup tool:
+
 ```
 yarn setup
 ```

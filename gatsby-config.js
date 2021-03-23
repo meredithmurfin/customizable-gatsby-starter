@@ -1,11 +1,11 @@
 module.exports = {
     siteMetadata: {
-        title: 'ultimate-gatsby-starter',
-        titleTemplate: '%s · ultimate-gatsby-starter',
+        title: 'customizable-gatsby-starter',
+        titleTemplate: '%s · customizable-gatsby-starter',
         siteUrl:
-            'https://github.com/meredithmurfin/ultimate-gatsby-starter.git',
+            'https://github.com/meredithmurfin/customizable-gatsby-starter.git',
         description:
-            'The ultimate starter template for a Gatsby project with TypeScript',
+            'A customizable starter template for a Gatsby project with TypeScript',
     },
     plugins: [
         'gatsby-plugin-sass',

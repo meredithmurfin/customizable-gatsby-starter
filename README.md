@@ -1,4 +1,4 @@
-# ultimate-gatsby-starter
+# customizable-gatsby-starter
 
 Start your next TypeScript Gatsby application with this project template. In addition to providing you with the main Gatsby configuration files you might need, this starter is equipped with TypeScipt, Sass, linting, and an interactive CLI for committing and pushing code.
 
@@ -16,6 +16,7 @@ This project is set up with the necessary installations and configurations for:
 -   [VS Code workspace settings](https://code.visualstudio.com/) (optional)
 
 ### Notes to Edit
+
 ```
 brew install jq
 ```
