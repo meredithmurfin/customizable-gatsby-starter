@@ -9,3 +9,5 @@ file = editJsonFile('./package.json', {
     stringify_width: 4,
 });
 file.unset('engines');
+file.unset('scripts.setup');
+file.unset('scripts.postsetup');

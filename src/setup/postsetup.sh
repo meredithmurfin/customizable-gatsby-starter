@@ -10,9 +10,9 @@ function remove_files() {
     rm -R $*
 }
 
-# echo "Removing package.json variables: engines"
-# node src/setup/postsetup.js
+# remove_dependencies "edit-json-file" "chalk" "inquirer" "shelljs" "figlet"
 
-# remove_dependencies "edit-json-file"
+# echo "Removing package.json variables: engines scripts.setup scripts.postsetup"
+# node src/setup/postsetup.js
 
 # remove_files "src/setup"
