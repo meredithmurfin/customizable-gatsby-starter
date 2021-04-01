@@ -17,6 +17,7 @@
         "email": "meredithmurfin@gmail.com",
         "url": "http://meremurf.dev"
     },
+    "type": "module",
     "scripts": {
         "post-setup": "chmod +x ./src/setup/postsetup.sh && ./src/setup/postsetup.sh && eslint package.json --fix",
         "setup": "node src/setup/index.js",
