@@ -122,11 +122,6 @@ module.exports = {
                 format: ['camelCase'],
             },
             {
-                selector: ['function'],
-                modifiers: ['exported'],
-                format: ['PascalCase'],
-            },
-            {
                 selector: ['variableLike', 'parameterProperty'],
                 types: ['boolean'],
                 format: ['camelCase'],
