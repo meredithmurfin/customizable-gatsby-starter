@@ -1,30 +1,34 @@
 #!/usr/bin/env node
-
-const figlet = require('figlet');
-const inquirer = require('inquirer');
-const chalk = require('chalk');
-const shell = require('shelljs');
-
-const colors = {
-    title: '#ff0087',
-    subtitle: '#ff87af',
-};
+/* eslint-disable */
+import {
+    logFigletTitle,
+    logFigletSubtitle,
+    logSectionTitle,
+    logSectionSubtitle,
+    requestUserInput,
+} from './helpers.js';
 
 const run = async () => {
-    console.log(
-        chalk.hex(colors.title)(
-            figlet.textSync('customizable gatsby starter', {
-                font: 'big',
-                horizontalLayout: 'default',
-                verticalLayout: 'default',
-            })
-        )
+    logFigletTitle('customizable gatsby starter');
+    logFigletSubtitle(
+        'Welcome to the interactive customizable-gatsby-starter CLI.\n'
     );
-    console.log(
-        chalk.hex(colors.subtitle)(
-            'Welcome to the customizable-gatsby-starter CLI.'
-        )
+    logSectionTitle("Let's start by setting basic project information.");
+    logSectionSubtitle(
+        "This information will be used to set up your package.json and Gatsby metadata. Don't worry, this data can easily be changed later.\n"
     );
+    const projectInfo = requestUserInput([
+        {
+            type: 'input',
+            name: 'name',
+            message: 'What is the name of your project?',
+        },
+        {
+            type: 'input',
+            name: 'description',
+            message: 'Please provide a short description of your project.',
+        },
+    ]);
 };
 
 run();
