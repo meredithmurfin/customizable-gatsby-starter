@@ -5,10 +5,12 @@ module.exports = {
     parserOptions: {
         ecmaVersion: 2020,
         sourceType: 'module',
+        extraFileExtensions: ['.json'],
         project: './tsconfig.eslint.json', // This setting is required if you want to use rules which require type information
     },
     plugins: [
         '@typescript-eslint', // Specifies the ESLint plugins
+        'json',
         'react',
         'react-hooks',
         'prettier',
@@ -18,6 +20,7 @@ module.exports = {
         'plugin:react/recommended', // Enables rules recommended by @eslint-plugin-react: https://www.npmjs.com/package/eslint-plugin-react
         'plugin:@typescript-eslint/recommended', // Enables rules recommended by @typescript-eslint/eslint-plugin: https://www.npmjs.com/package/@typescript-eslint/eslint-plugin
         'plugin:@typescript-eslint/recommended-requiring-type-checking', // Enables rules recommended by @typescript-eslint/eslint-plugin that require type checking: https://www.npmjs.com/package/@typescript-eslint/eslint-plugin
+        'plugin:json/recommended', // Enables rules specifically for .json files: https://www.npmjs.com/package/eslint-plugin-json
         'prettier',
         'prettier/prettier',
         'plugin:import/errors',
@@ -117,11 +120,6 @@ module.exports = {
             {
                 selector: ['variable'],
                 format: ['camelCase'],
-            },
-            {
-                selector: ['function'],
-                modifiers: ['exported'],
-                format: ['PascalCase'],
             },
             {
                 selector: ['variableLike', 'parameterProperty'],
