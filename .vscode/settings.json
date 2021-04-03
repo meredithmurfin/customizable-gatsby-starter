@@ -1,0 +1,126 @@
+{
+    // Edits to VS Code settings
+
+    // Editor
+    "diffEditor.codeLens": true,
+    "editor.acceptSuggestionOnCommitCharacter": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true,
+        "source.fixAll.stylelint": true
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.find.autoFindInSelection": "multiline",
+    "editor.formatOnSave": true,
+    "editor.glyphMargin": false,
+    "editor.minimap.enabled": false,
+    "editor.tabSize": 4,
+    "editor.fontFamily": "Monaco, 'Courier New', monospace, 'Apple Color Emoji'",
+    "editor.inlineHints.fontFamily": "Monaco, 'Courier New', monospace, 'Apple Color Emoji'",
+
+    // Files
+    "files.trimTrailingWhitespace": true,
+
+    // Search
+    "search.collapseResults": "alwaysCollapse",
+    "search.exclude": {
+        "**/*.lock": true,
+        "**/bower_components": true,
+        "**/*.code-search": true
+    },
+
+    // TypeScript
+    "javascript.format.semicolons": "insert",
+    "javascript.preferences.quoteStyle": "single",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "javascript.validate.enable": false,
+    "typescript.format.semicolons": "insert",
+    "typescript.implementationsCodeLens.enabled": true,
+    "typescript.preferences.quoteStyle": "single",
+    "typescript.referencesCodeLens.enabled": true,
+    "typescript.referencesCodeLens.showOnAllFunctions": true,
+    "typescript.validate.enable": false,
+
+    // SCSS (Sass)
+    "scss.lint.boxModel": "warning",
+    "scss.lint.compatibleVendorPrefixes": "warning",
+    "scss.lint.duplicateProperties": "error",
+    "scss.lint.emptyRules": "ignore",
+    "scss.lint.float": "warning",
+    "scss.lint.idSelector": "warning",
+    "scss.lint.important": "warning",
+    "scss.lint.propertyIgnoredDueToDisplay": "error",
+    "scss.lint.universalSelector": "warning",
+    "scss.lint.zeroUnits": "warning",
+
+    // Git
+    "git.allowForcePush": true,
+    "git.branchValidationRegex": "/(build|chore|ci|docs|feat|fix|refactor|revert|style|test)/(([a-z|-]{1,20}))/g",
+    "git.decorations.enabled": false,
+    "git.fetchOnPull": true,
+    "git.showPushSuccessNotification": true,
+
+    // Merge Conflict
+    "merge-conflict.autoNavigateNextConflict.enabled": true,
+    "merge-conflict.decorators.enabled": true,
+    "merge-conflict.diffViewPosition": "Beside",
+
+    // Necessary changes to VS Code extension settings
+    "npm.packageManager": "yarn",
+
+    // ESLint
+    "eslint.alwaysShowStatus": true,
+    "eslint.codeActionsOnSave.mode": "all",
+    "eslint.debug": false,
+    "eslint.format.enable": true,
+    "eslint.lintTask.enable": true,
+    "eslint.onIgnoredFiles": "off",
+    "eslint.packageManager": "yarn",
+    "eslint.probe": [
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact",
+        "html",
+        "vue",
+        "markdown"
+    ],
+    "eslint.run": "onSave",
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact",
+        "html",
+        "vue",
+        "markdown"
+    ],
+
+    // Prettier
+    "prettier.enable": true,
+    "prettier.tabWidth": 4,
+    "prettier.jsxSingleQuote": true,
+    "prettier.singleQuote": true,
+
+    // Stylelint
+    "css.validate": false,
+    "less.validate": false,
+    "scss.validate": false,
+    "stylelint.enable": true,
+    "stylelint.packageManager": "yarn",
+    "editor.formatOnPaste": true
+}
