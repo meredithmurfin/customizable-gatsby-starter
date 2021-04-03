@@ -32,7 +32,3 @@ export function logSectionTitle(text) {
 export function logSectionSubtitle(text) {
     console.log(text);
 }
-
-export function logSectionSubtitleItalics(text) {
-    console.log(chalk.italic(text));
-}
