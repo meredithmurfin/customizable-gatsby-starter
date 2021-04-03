@@ -10,7 +10,7 @@ function remove_files() {
     rm -R $*
 }
 
-# remove_dependencies "edit-json-file" "chalk" "inquirer" "shelljs" "figlet"
+# remove_dependencies "edit-json-file" "chalk" "inquirer" "shelljs" "figlet" "rxjs"
 
 # echo "Removing package.json variables: engines scripts.setup scripts.postsetup"
 # node src/setup/postsetup.js

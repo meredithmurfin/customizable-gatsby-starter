@@ -1,6 +1,5 @@
 /* eslint-disable */
 import figlet from 'figlet';
-import inquirer from 'inquirer';
 import chalk from 'chalk';
 import shelljs from 'shelljs';
 
@@ -34,15 +33,6 @@ export function logSectionSubtitle(text) {
     console.log(text);
 }
 
-export function requestUserInput(questions) {
-    inquirer
-        .prompt(questions)
-        .then((answers) => {
-            answers.name;
-            answers.description;
-            return answers;
-        })
-        .catch((error) => {
-            console.log(error);
-        });
+export function logSectionSubtitleItalics(text) {
+    console.log(chalk.italic(text));
 }
