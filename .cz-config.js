@@ -2,7 +2,7 @@ module.exports = {
     types: [
         {
             value: 'chore',
-            name: 'chore:      ⚙️ Build process or supporting tool changes',
+            name: 'chore:      ⚙️  Build process or supporting tool changes',
         },
         {
             value: 'ci',
@@ -26,7 +26,7 @@ module.exports = {
         },
         {
             value: 'refactor',
-            name: 'refactor:   ♻️ Neither fixes a bug nor adds functionality',
+            name: 'refactor:   ♻️  Neither fixes a bug nor adds functionality',
         },
         {
             value: 'release',
@@ -72,11 +72,11 @@ module.exports = {
             },
             {
                 value: 'config',
-                name: 'config:     🛠️ Adds or updates configuration files',
+                name: 'config:     🛠️  Adds or updates configuration files',
             },
             {
                 value: 'downgrade',
-                name: 'downgrade:  ⬇️ Downgrades dependencies',
+                name: 'downgrade:  ⬇️  Downgrades dependencies',
             },
             {
                 value: 'errors',
@@ -108,13 +108,13 @@ module.exports = {
             },
             {
                 value: 'upgrade',
-                name: 'upgrade:    ⬆️ Upgrades dependencies',
+                name: 'upgrade:    ⬆️  Upgrades dependencies',
             },
         ],
         docs: [
             {
                 value: 'config',
-                name: 'config: 🛠️ Adds or updates configuration documentation',
+                name: 'config: 🛠️  Adds or updates configuration documentation',
             },
             {
                 value: 'logs',
@@ -127,8 +127,12 @@ module.exports = {
         ],
         fix: [
             {
+                value: 'config',
+                name: 'config:     🛠️  Fixes configuration',
+            },
+            {
                 value: 'downgrade',
-                name: 'downgrade:  ⬇️ Downgrades dependencies',
+                name: 'downgrade:  ⬇️  Downgrades dependencies',
             },
             {
                 value: 'merge',
@@ -148,15 +152,15 @@ module.exports = {
             },
             {
                 value: 'test',
-                name: 'test:       ✔️ Fixes tests',
+                name: 'test:       ✔️  Fixes tests',
             },
             {
                 value: 'typo',
-                name: 'typo:       ✏️ Fixes typos',
+                name: 'typo:       ✏️  Fixes typos',
             },
             {
                 value: 'upgrade',
-                name: 'upgrade:    ⬆️ Upgrades dependencies',
+                name: 'upgrade:    ⬆️  Upgrades dependencies',
             },
             {
                 value: 'warn',
@@ -183,7 +187,7 @@ module.exports = {
             },
             {
                 value: 'rename',
-                name: 'rename:     🏷️ Renames files',
+                name: 'rename:     🏷️  Renames files',
             },
             {
                 value: 'reuse',
@@ -194,7 +198,7 @@ module.exports = {
         setup: [
             {
                 value: 'config',
-                name: 'config: 🛠️ Adds or updates configuration files',
+                name: 'config: 🛠️  Adds or updates configuration files',
             },
             {
                 value: 'docs',
@@ -214,7 +218,7 @@ module.exports = {
             },
             {
                 value: 'rename',
-                name: 'rename: 🏷️ Renames files',
+                name: 'rename: 🏷️  Renames files',
             },
         ],
         test: [
@@ -272,7 +276,7 @@ module.exports = {
             },
             {
                 value: 'ui',
-                name: 'ui:         🖥️ General UI-related changes',
+                name: 'ui:         🖥️  General UI-related changes',
             },
             {
                 value: 'windows',
